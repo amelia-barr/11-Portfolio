@@ -3,6 +3,7 @@ body {
     background-color: #E8EBED;
     z-index: -3;
 }
+
 .navbar {
     text-align: left;
     background-color: rgb(48, 48, 48);
@@ -12,6 +13,7 @@ body {
     top: 0;
     z-index: 1000;
 }
+
 .navbar a {
     color: rgb(203, 205, 205);
     text-decoration: none;
@@ -19,6 +21,7 @@ body {
     font-size: 20px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 .navbar p {
     color: rgb(203, 205, 205);
     text-decoration: none;
@@ -26,22 +29,26 @@ body {
     font-size: 20px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 .navbar a:hover {
     background-color: rgb(77, 77, 77);
     color: white;
 }
+
 .image-text {
     position: absolute;
     top: 120px;
     left: 660px;
     background-color: rgba(0, 0, 0, 0.635);
-    color: white;
+    color: rgb(211, 211, 211);
     padding: 50px;
     font-size: 25px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     z-index: -1;
+    border-radius: 5px;
 }
+
 .imageblock img {
     position: relative;
     width: 100%;
@@ -50,6 +57,7 @@ body {
     z-index: -2;
     border-bottom: 5px solid black;
 }
+
 h3 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
@@ -57,39 +65,48 @@ h3 {
     margin-right: 50px;
     overflow-wrap: break-word;
 }
+
 .column {
-    background-color:#E8EBED;
     width: 25%;
     height: 200px;
     border: 5px;
     margin: 60px;
     float:left;
-    transition: .3s;
+    transition: .001s;
     text-decoration: underline;
 }
+
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
+
 .column img {
     position: relative;
     width: 370px;
     height: 200px;
     border-radius: 30px;
-    border: rgba(0, 0, 0, 0.31) solid 1px;
+    border: rgba(255, 0, 0, 0.452) solid 1px;
     filter: drop-shadow(8px 4px 8px grey);
-    z-index: -100;
 }
-.column:hover {
+
+.column a img{
+    transition: .3s;
+    text-decoration: underline;
+}
+
+.column a:hover img{
     transform: scale(1.2);
-    z-index: -1;
+    filter: drop-shadow(8px 4px 8px grey);
 }
+
 hr {
     border-top: grey solid 3px;
     border-radius: 30px;
     opacity: 10%;
 }
+
 .project-text {
     position: absolute;
     top: 825px;
@@ -102,6 +119,7 @@ hr {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
+
 .project-text1 {
     position: absolute;
     top: 825px;
@@ -114,15 +132,18 @@ hr {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
+
 .project-text:hover, .project-text1:hover {
     text-decoration: underline;
 }
+
 .contactcard p {
     height: 260px;
     width: 1100px;
     margin-bottom: 50px;
     margin-left: 20px;
     box-shadow: 8px 4px 8px 4px grey ;
+    background-color: aliceblue;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 30px;
@@ -134,9 +155,11 @@ hr {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     transition: 1s;
 }
+
 .contactcard p:hover {
     transform: scale(1.03);
 }
+
 .icons {
     position: fixed right;
     top: 200px;
@@ -144,6 +167,7 @@ hr {
     transform: translateY(-105%);
     float: right;
 }
+
 .instagram img{
     padding: 30px;
     height:  60px;
@@ -151,6 +175,7 @@ hr {
     margin-right: 50px;
     transition: 1s;
 }
+
 .github img{
     padding: 30px;
     height:  60px;
@@ -158,6 +183,7 @@ hr {
     margin-right: 50px;
     transition: 1s;
 }
+
 .discord img{
     padding: 30px;
     height:  60px;
@@ -165,11 +191,13 @@ hr {
     margin-right: 50px;
     transition: 1s;
 }
+
 .discord img:hover,.instagram img:hover,.github img:hover {
     background-color: #dfdfdfa1;
     transform: scale(1.1);
     z-index: -2;
 }
+
 .aboutcard p {
     height: 175px;
     width: 900px;
@@ -187,13 +215,91 @@ hr {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     transition: 1s;
 }
+.aboutcard {
+    padding: 0;
+    margin: 0;
+}
+
 .aboutcard p:hover {
     transform: scale(1.03);
 }
+
 .embedinsta {
     position: fixed right;
     top: 200px;
     margin-right: 50px;
     transform: translateY(-95%);
     float: right;
+    transition: 2s;
+    padding: 0;
+    z-index: -10;
+}
+
+.photos {
+    height: 200px;
+}
+
+.projectimg img {
+    height: 350px;
+    margin-left: 75px;
+    margin-top: 50px;
+    filter: drop-shadow(8px 4px 8px grey);
+}
+
+.photos img {
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 230px;
+    margin-bottom: 40px;
+    filter: drop-shadow(8px 4px 8px grey);
+    z-index: -10;
+}
+
+.accordion {
+    width: 35%;
+    max-width: 500px;
+    margin-bottom: 100px;
+    margin-top: 150px;
+    margin-right: 200px;
+    float: right;
+    box-shadow: 8px 8px 8px grey;
+  }
+
+  .accordion input {
+    display: none;
+  }
+
+  .accordion label {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    text-align: left;
+    transition: background-color 0.3s;
+  }
+
+  .accordion label:hover {
+    background-color: #ddd;
+  }
+
+  .accordion .panel {
+    padding: 0 15px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-top: none;
+    width: 100%;
+  }
+
+  .accordion input:checked + label + .panel {
+    display: block;
+  }
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }
