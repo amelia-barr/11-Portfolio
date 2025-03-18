@@ -214,6 +214,7 @@ hr {
     font-size: 17px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     transition: 1s;
+    background-color:rgb(255, 250, 244);
 }
 .aboutcard {
     padding: 0;
@@ -271,27 +272,31 @@ hr {
 
   .accordion label {
     display: block;
-    width: 100%;
+    width: 94.5%;
     padding: 15px;
     background-color: #f1f1f1;
-    border: 1px solid #ccc;
+    border: 1px solid #b7c3ff;
     cursor: pointer;
     text-align: left;
-    transition: background-color 0.3s;
+    border-radius: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:#e4e8ff;
   }
 
   .accordion label:hover {
-    background-color: #ddd;
+    background-color: #7182DE;
+    border: #7182DE solid 1px;
   }
 
   .accordion .panel {
-    padding: 0 15px;
-    background-color: white;
+    padding: 13px;
+    background-color:rgb(255, 250, 244);
     display: none;
     overflow: hidden;
-    border: 1px solid #ccc;
+    border: 1px solid #b7c3ff;
     border-top: none;
-    width: 100%;
+    width: 94.5%;
+    border-radius: 10px;
   }
 
   .accordion input:checked + label + .panel {
