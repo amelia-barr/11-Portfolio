@@ -38,7 +38,46 @@ body {
 .image-text {
     position: absolute;
     top: 120px;
-    left: 660px;
+    left: 44%;
+    background-color: rgba(0, 0, 0, 0.635);
+    color: rgb(211, 211, 211);
+    padding: 50px;
+    font-size: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    z-index: -1;
+    border-radius: 5px;
+}
+.image-texta {
+    position: absolute;
+    top: 120px;
+    left: 43%;
+    background-color: rgba(0, 0, 0, 0.635);
+    color: rgb(211, 211, 211);
+    padding: 50px;
+    font-size: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    z-index: -1;
+    border-radius: 5px;
+}
+.image-textc {
+    position: absolute;
+    top: 120px;
+    left: 43%;
+    background-color: rgba(0, 0, 0, 0.635);
+    color: rgb(211, 211, 211);
+    padding: 50px;
+    font-size: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    z-index: -1;
+    border-radius: 5px;
+}
+.image-textp {
+    position: absolute;
+    top: 120px;
+    left: 41%;
     background-color: rgba(0, 0, 0, 0.635);
     color: rgb(211, 211, 211);
     padding: 50px;
@@ -109,7 +148,7 @@ hr {
 
 .project-text {
     position: absolute;
-    top: 825px;
+    top: 103%;
     margin-left: 95px;
     background-color: rgba(0, 0, 0, 0.361);
     color: white;
@@ -122,7 +161,7 @@ hr {
 
 .project-text1 {
     position: absolute;
-    top: 825px;
+    top: 103%;
     margin-left: 60px;
     background-color: rgba(0, 0, 0, 0.361);
     color: white;
@@ -290,7 +329,7 @@ hr {
 
   .accordion .panel {
     padding: 13px;
-    background-color:rgb(255, 250, 244);
+    background-color:rgb(250, 244, 255);
     display: none;
     overflow: hidden;
     border: 1px solid #b7c3ff;
